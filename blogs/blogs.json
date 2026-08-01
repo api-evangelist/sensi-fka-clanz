@@ -1,0 +1,14 @@
+{
+  "repo": "sensi-fka-clanz",
+  "feeds": [
+    {
+      "source": "https://www.sensi.ai/",
+      "feed_url": "https://www.sensi.ai/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,8 +1,14 @@
 aid: sensi-fka-clanz
 name: Sensi (fka Clanz)
-description: 'Sensi (fka Clanz) is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sensi.ai (formerly Clanz) is a home-care technology company whose 24/7
+  Care Copilot is an AI platform for senior home-care agencies. Using ambient audio
+  sensing and a set of AI agents (Care, Growth, and Ops), Sensi gives care providers
+  a holistic view of seniors'' physical, emotional, and cognitive needs to support
+  aging in place and proactive intervention when no caregiver is present. The company
+  markets reduced hospitalizations, revenue growth, and operational efficiency for
+  agencies. Sensi is backed by Insight Partners. No public developer API, documentation,
+  or well-known discovery surface was found during enrichment; the customer application
+  lives at app.sensi.ai.'
 url: https://raw.githubusercontent.com/api-evangelist/sensi-fka-clanz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.sensi.ai/wp-content/uploads/2025/03/opengraph_sensi.jpg
 tags:
 - Company
 - Healthcare
+- Home Care
+- Senior Care
+- Aging in Place
+- Artificial Intelligence
+- Remote Monitoring
+- Elder Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sensi-fka-clanz-domain-security.yml
 - type: Website
   url: https://www.sensi.ai/
+- type: Blog
+  url: https://www.sensi.ai/insights/
+- type: PrivacyPolicy
+  url: https://www.sensi.ai/privacy/
+- type: TermsOfService
+  url: https://www.sensi.ai/website-terms-and-conditions/
+- type: Login
+  url: https://app.sensi.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
